@@ -1,0 +1,511 @@
+C:/Users/lcc5/Downloads/JINGTING_V5/bancoReg.sv {1 {vlog -work work -sv -stats=none C:/Users/lcc5/Downloads/JINGTING_V5/bancoReg.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module bancoReg
+
+Top level modules:
+	bancoReg
+
+} {} {}} C:/Users/lcc5/Downloads/JINGTING_V5/PU.sv {0 {vlog -work work -sv -stats=none C:/Users/lcc5/Downloads/JINGTING_V5/PU.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module PU
+** Error (suppressible): C:/Users/lcc5/Downloads/JINGTING_V5/PU.sv(166): (vlog-2367) Multiple connections to the same port: D.
+
+} {} {}} C:/Users/fjtl2/Desktop/JINGTING_V4/ula64.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/fjtl2/Desktop/JINGTING_V4/ula64.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.6d Compiler 2018.02 Feb 24 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Compiling entity Ula64
+-- Compiling architecture behavioral of Ula64
+
+} {} {}} C:/Users/fjtl2/Desktop/JINGTING_V4/PU.sv {1 {vlog -work work -sv -stats=none {C:\Users\fjtl2\Desktop\JINGTING_V4\PU.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module PU
+
+Top level modules:
+	PU
+
+} {} {}} C:/Users/fjtl2/Desktop/JINGTING_V4/Deslocamento.sv {1 {vlog -work work -sv -stats=none {C:\Users\fjtl2\Desktop\JINGTING_V4\Deslocamento.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module Deslocamento
+
+Top level modules:
+	Deslocamento
+
+} {} {}} C:/Users/fjtl2/Desktop/RISCV-master/JINGTING_V4/ramOnChip64.v {1 {vlog -work work -stats=none C:/Users/fjtl2/Desktop/RISCV-master/JINGTING_V4/ramOnChip64.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module ramOnChip64
+
+Top level modules:
+	ramOnChip64
+
+} {} {}} C:/Users/fjtl2/Desktop/RISCV-master/JINGTING_V4/MUX_4_64B.sv {1 {vlog -work work -sv -stats=none C:/Users/fjtl2/Desktop/RISCV-master/JINGTING_V4/MUX_4_64B.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module MUX_4_64B
+
+Top level modules:
+	MUX_4_64B
+
+} {} {}} C:/Users/fjtl2/Desktop/JINGTING_V6/Deslocamento.sv {1 {vlog -work work -sv -stats=none C:/Users/fjtl2/Desktop/JINGTING_V6/Deslocamento.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module Deslocamento
+
+Top level modules:
+	Deslocamento
+
+} {} {}} C:/Users/fjtl2/Desktop/JINGTING_V4/SIGN_EXTEND.sv {1 {vlog -work work -sv -stats=none {C:\Users\fjtl2\Desktop\JINGTING_V4\SIGN_EXTEND.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module SIGN_EXTEND
+
+Top level modules:
+	SIGN_EXTEND
+
+} {} {}} C:/Users/lcc5/Desktop/JINGTING_V4/Memoria64.sv {1 {vlog -work work -sv -stats=none {C:\Users\lcc5\Desktop\JINGTING_V4\Memoria64.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module Memoria64
+
+Top level modules:
+	Memoria64
+
+} {} {}} C:/Users/lcc5/Desktop/JINGTING_V4/PU.sv {1 {vlog -work work -sv -stats=none C:/Users/lcc5/Desktop/JINGTING_V4/PU.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module PU
+
+Top level modules:
+	PU
+
+} {} {}} C:/Users/lcc5/Downloads/JINGTING_V5/register.sv {1 {vlog -work work -sv -stats=none C:/Users/lcc5/Downloads/JINGTING_V5/register.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module register
+
+Top level modules:
+	register
+
+} {} {}} C:/Users/fjtl2/Desktop/JINGTING_V6/ramOnChip32.v {1 {vlog -work work -stats=none C:/Users/fjtl2/Desktop/JINGTING_V6/ramOnChip32.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module ramOnChip32
+
+Top level modules:
+	ramOnChip32
+
+} {} {}} C:/Users/fjtl2/Desktop/RISCV-master/JINGTING_V4/Memoria32.sv {1 {vlog -work work -sv -stats=none C:/Users/fjtl2/Desktop/RISCV-master/JINGTING_V4/Memoria32.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module Memoria32
+
+Top level modules:
+	Memoria32
+
+} {} {}} C:/Users/fjtl2/Desktop/JINGTING_V6/simulation.sv {1 {vlog -work work -sv -stats=none C:/Users/fjtl2/Desktop/JINGTING_V6/simulation.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module simulation
+
+Top level modules:
+	simulation
+
+} {} {}} C:/Users/fjtl2/Desktop/JINGTING_V4/MUX_4_64B.sv {1 {vlog -work work -sv -stats=none C:/Users/fjtl2/Desktop/JINGTING_V4/MUX_4_64B.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module MUX_4_64B
+
+Top level modules:
+	MUX_4_64B
+
+} {} {}} C:/Users/fjtl2/Desktop/RISCV-master/JINGTING_V4/Instr_Reg_Risc_V.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/fjtl2/Desktop/RISCV-master/JINGTING_V4/Instr_Reg_Risc_V.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.6d Compiler 2018.02 Feb 24 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity Instr_Reg_RISC_V
+-- Compiling architecture behavioral_arch of Instr_Reg_RISC_V
+
+} {} {}} C:/Users/fjtl2/Desktop/RISCV-master/JINGTING_V4/ula64.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/fjtl2/Desktop/RISCV-master/JINGTING_V4/ula64.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.6d Compiler 2018.02 Feb 24 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Compiling entity Ula64
+-- Compiling architecture behavioral of Ula64
+
+} {} {}} C:/Users/fjtl2/Desktop/RISCV-master/JINGTING_V4/MUX_2_64B.sv {1 {vlog -work work -sv -stats=none C:/Users/fjtl2/Desktop/RISCV-master/JINGTING_V4/MUX_2_64B.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module MUX_2_64B
+
+Top level modules:
+	MUX_2_64B
+
+} {} {}} C:/Users/lcc5/Downloads/JINGTING_V5/ramOnChip64.v {1 {vlog -work work -stats=none C:/Users/lcc5/Downloads/JINGTING_V5/ramOnChip64.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module ramOnChip64
+
+Top level modules:
+	ramOnChip64
+
+} {} {}} C:/Users/lcc5/Downloads/JINGTING_V5/MUX_4_64B.sv {1 {vlog -work work -sv -stats=none C:/Users/lcc5/Downloads/JINGTING_V5/MUX_4_64B.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module MUX_4_64B
+
+Top level modules:
+	MUX_4_64B
+
+} {} {}} C:/Users/fjtl2/Desktop/JINGTING_V4/Memoria32.sv {1 {vlog -work work -sv -stats=none {C:\Users\fjtl2\Desktop\JINGTING_V4\Memoria32.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module Memoria32
+
+Top level modules:
+	Memoria32
+
+} {} {}} C:/Users/fjtl2/Desktop/JINGTING_V4/ramOnChip64.v {1 {vlog -work work -stats=none C:/Users/fjtl2/Desktop/JINGTING_V4/ramOnChip64.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module ramOnChip64
+
+Top level modules:
+	ramOnChip64
+
+} {} {}} C:/Users/fjtl2/Desktop/RISCV-master/JINGTING_V4/ramOnChip32.v {1 {vlog -work work -stats=none C:/Users/fjtl2/Desktop/RISCV-master/JINGTING_V4/ramOnChip32.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module ramOnChip32
+
+Top level modules:
+	ramOnChip32
+
+} {} {}} C:/Users/lcc5/Desktop/JINGTING_V4/Deslocamento.sv {1 {vlog -work work -sv -stats=none C:/Users/lcc5/Desktop/JINGTING_V4/Deslocamento.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module Deslocamento
+
+Top level modules:
+	Deslocamento
+
+} {} {}} C:/Users/fjtl2/Desktop/JINGTING_V4/Instr_Reg_Risc_V.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/fjtl2/Desktop/JINGTING_V4/Instr_Reg_Risc_V.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.6d Compiler 2018.02 Feb 24 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity Instr_Reg_RISC_V
+-- Compiling architecture behavioral_arch of Instr_Reg_RISC_V
+
+} {} {}} C:/Users/fjtl2/Desktop/RISCV-master/JINGTING_V4/simulation.sv {1 {vlog -work work -sv -stats=none C:/Users/fjtl2/Desktop/RISCV-master/JINGTING_V4/simulation.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module simulation
+
+Top level modules:
+	simulation
+
+} {} {}} C:/Users/lcc5/Desktop/JINGTING_V4/ramOnChip64.v {1 {vlog -work work -stats=none C:/Users/lcc5/Desktop/JINGTING_V4/ramOnChip64.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module ramOnChip64
+
+Top level modules:
+	ramOnChip64
+
+} {} {}} C:/Users/fjtl2/Desktop/JINGTING_V4/MUX_2_64B.sv {1 {vlog -work work -sv -stats=none C:/Users/fjtl2/Desktop/JINGTING_V4/MUX_2_64B.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module MUX_2_64B
+
+Top level modules:
+	MUX_2_64B
+
+} {} {}} C:/Users/lcc5/Downloads/JINGTING_V5/Memoria32.sv {1 {vlog -work work -sv -stats=none C:/Users/lcc5/Downloads/JINGTING_V5/Memoria32.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module Memoria32
+
+Top level modules:
+	Memoria32
+
+} {} {}} C:/Users/fjtl2/Desktop/JINGTING_V6/MUX_4_64B.sv {1 {vlog -work work -sv -stats=none C:/Users/fjtl2/Desktop/JINGTING_V6/MUX_4_64B.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module MUX_4_64B
+
+Top level modules:
+	MUX_4_64B
+
+} {} {}} C:/Users/lcc5/Downloads/JINGTING_V5/Instr_Reg_Risc_V.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/lcc5/Downloads/JINGTING_V5/Instr_Reg_Risc_V.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.6d Compiler 2018.02 Feb 24 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity Instr_Reg_RISC_V
+-- Compiling architecture behavioral_arch of Instr_Reg_RISC_V
+
+} {} {}} C:/Users/fjtl2/Desktop/RISCV-master/JINGTING_V4/Memoria64.sv {1 {vlog -work work -sv -stats=none C:/Users/fjtl2/Desktop/RISCV-master/JINGTING_V4/Memoria64.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module Memoria64
+
+Top level modules:
+	Memoria64
+
+} {} {}} C:/Users/lcc5/Downloads/JINGTING_V5/STATE_MACHINE.sv {1 {vlog -work work -sv -stats=none C:/Users/lcc5/Downloads/JINGTING_V5/STATE_MACHINE.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module STATE_MACHINE
+
+Top level modules:
+	STATE_MACHINE
+
+} {} {}} C:/Users/lcc5/Downloads/JINGTING_V5/ula64.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/lcc5/Downloads/JINGTING_V5/ula64.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.6d Compiler 2018.02 Feb 24 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Compiling entity Ula64
+-- Compiling architecture behavioral of Ula64
+
+} {} {}} C:/Users/fjtl2/Desktop/RISCV-master/JINGTING_V4/Deslocamento.sv {1 {vlog -work work -sv -stats=none C:/Users/fjtl2/Desktop/RISCV-master/JINGTING_V4/Deslocamento.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module Deslocamento
+
+Top level modules:
+	Deslocamento
+
+} {} {}} C:/Users/lcc5/Downloads/JINGTING_V5/MUX_2_64B.sv {1 {vlog -work work -sv -stats=none C:/Users/lcc5/Downloads/JINGTING_V5/MUX_2_64B.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module MUX_2_64B
+
+Top level modules:
+	MUX_2_64B
+
+} {} {}} C:/Users/lcc5/Desktop/JINGTING_V4/bancoReg.sv {1 {vlog -work work -sv -stats=none C:/Users/lcc5/Desktop/JINGTING_V4/bancoReg.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module bancoReg
+
+Top level modules:
+	bancoReg
+
+} {} {}} C:/Users/fjtl2/Desktop/JINGTING_V6/ula64.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/fjtl2/Desktop/JINGTING_V6/ula64.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.6d Compiler 2018.02 Feb 24 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Compiling entity Ula64
+-- Compiling architecture behavioral of Ula64
+
+} {} {}} C:/Users/fjtl2/Desktop/JINGTING_V6/PU.sv {1 {vlog -work work -sv -stats=none C:/Users/fjtl2/Desktop/JINGTING_V6/PU.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module PU
+
+Top level modules:
+	PU
+
+} {} {}} C:/Users/fjtl2/Desktop/JINGTING_V6/Memoria32.sv {1 {vlog -work work -sv -stats=none C:/Users/fjtl2/Desktop/JINGTING_V6/Memoria32.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module Memoria32
+
+Top level modules:
+	Memoria32
+
+} {} {}} C:/Users/lcc5/Downloads/JINGTING_V5/ramOnChip32.v {1 {vlog -work work -stats=none C:/Users/lcc5/Downloads/JINGTING_V5/ramOnChip32.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module ramOnChip32
+
+Top level modules:
+	ramOnChip32
+
+} {} {}} C:/Users/lcc5/Desktop/JINGTING_V4/ula64.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/lcc5/Desktop/JINGTING_V4/ula64.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.6d Compiler 2018.02 Feb 24 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Compiling entity Ula64
+-- Compiling architecture behavioral of Ula64
+
+} {} {}} C:/Users/fjtl2/Desktop/JINGTING_V4/ramOnChip32.v {1 {vlog -work work -stats=none C:/Users/fjtl2/Desktop/JINGTING_V4/ramOnChip32.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module ramOnChip32
+
+Top level modules:
+	ramOnChip32
+
+} {} {}} C:/Users/lcc5/Downloads/JINGTING_V5/simulation.sv {1 {vlog -work work -sv -stats=none C:/Users/lcc5/Downloads/JINGTING_V5/simulation.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module simulation
+
+Top level modules:
+	simulation
+
+} {} {}} C:/Users/fjtl2/Desktop/JINGTING_V4/Memoria64.sv {1 {vlog -work work -sv -stats=none {C:\Users\fjtl2\Desktop\JINGTING_V4\Memoria64.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module Memoria64
+
+Top level modules:
+	Memoria64
+
+} {} {}} C:/Users/fjtl2/Desktop/JINGTING_V6/Instr_Reg_Risc_V.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/fjtl2/Desktop/JINGTING_V6/Instr_Reg_Risc_V.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.6d Compiler 2018.02 Feb 24 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity Instr_Reg_RISC_V
+-- Compiling architecture behavioral_arch of Instr_Reg_RISC_V
+
+} {} {}} C:/Users/lcc5/Desktop/JINGTING_V4/MUX_4_64B.sv {1 {vlog -work work -sv -stats=none {C:\Users\lcc5\Desktop\JINGTING_V4\MUX_4_64B.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module MUX_4_64B
+
+Top level modules:
+	MUX_4_64B
+
+} {} {}} C:/Users/fjtl2/Desktop/JINGTING_V4/simulation.sv {1 {vlog -work work -sv -stats=none {C:\Users\fjtl2\Desktop\JINGTING_V4\simulation.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module simulation
+
+Top level modules:
+	simulation
+
+} {} {}} C:/Users/fjtl2/Desktop/JINGTING_V6/MUX_2_64B.sv {1 {vlog -work work -sv -stats=none C:/Users/fjtl2/Desktop/JINGTING_V6/MUX_2_64B.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module MUX_2_64B
+
+Top level modules:
+	MUX_2_64B
+
+} {} {}} C:/Users/fjtl2/Desktop/RISCV-master/JINGTING_V4/bancoReg.sv {1 {vlog -work work -sv -stats=none C:/Users/fjtl2/Desktop/RISCV-master/JINGTING_V4/bancoReg.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module bancoReg
+
+Top level modules:
+	bancoReg
+
+} {} {}} C:/Users/lcc5/Desktop/JINGTING_V4/ramOnChip32.v {1 {vlog -work work -stats=none C:/Users/lcc5/Desktop/JINGTING_V4/ramOnChip32.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module ramOnChip32
+
+Top level modules:
+	ramOnChip32
+
+} {} {}} C:/Users/fjtl2/Desktop/JINGTING_V4/bancoReg.sv {1 {vlog -work work -sv -stats=none {C:\Users\fjtl2\Desktop\JINGTING_V4\bancoReg.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module bancoReg
+
+Top level modules:
+	bancoReg
+
+} {} {}} C:/Users/lcc5/Desktop/JINGTING_V4/register.sv {1 {vlog -work work -sv -stats=none C:/Users/lcc5/Desktop/JINGTING_V4/register.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module register
+
+Top level modules:
+	register
+
+} {} {}} C:/Users/lcc5/Desktop/JINGTING_V4/simulation.sv {1 {vlog -work work -sv -stats=none C:/Users/lcc5/Desktop/JINGTING_V4/simulation.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module simulation
+
+Top level modules:
+	simulation
+
+} {} {}} C:/Users/fjtl2/Desktop/JINGTING_V6/bancoReg.sv {1 {vlog -work work -sv -stats=none C:/Users/fjtl2/Desktop/JINGTING_V6/bancoReg.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module bancoReg
+
+Top level modules:
+	bancoReg
+
+} {} {}} C:/Users/lcc5/Downloads/JINGTING_V5/Memoria64.sv {1 {vlog -work work -sv -stats=none C:/Users/lcc5/Downloads/JINGTING_V5/Memoria64.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module Memoria64
+
+Top level modules:
+	Memoria64
+
+} {} {}} C:/Users/lcc5/Desktop/JINGTING_V4/Memoria32.sv {1 {vlog -work work -sv -stats=none C:/Users/lcc5/Desktop/JINGTING_V4/Memoria32.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module Memoria32
+
+Top level modules:
+	Memoria32
+
+} {} {}} C:/Users/fjtl2/Desktop/RISCV-master/JINGTING_V4/PU.sv {1 {vlog -work work -sv -stats=none C:/Users/fjtl2/Desktop/RISCV-master/JINGTING_V4/PU.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module PU
+
+Top level modules:
+	PU
+
+} {} {}} C:/Users/lcc5/Downloads/JINGTING_V5/Deslocamento.sv {1 {vlog -work work -sv -stats=none C:/Users/lcc5/Downloads/JINGTING_V5/Deslocamento.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module Deslocamento
+
+Top level modules:
+	Deslocamento
+
+} {} {}} C:/Users/lcc5/Desktop/JINGTING_V4/SIGN_EXTEND.sv {1 {vlog -work work -sv -stats=none C:/Users/lcc5/Desktop/JINGTING_V4/SIGN_EXTEND.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module SIGN_EXTEND
+
+Top level modules:
+	SIGN_EXTEND
+
+} {} {}} C:/Users/lcc5/Desktop/JINGTING_V4/Instr_Reg_Risc_V.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/lcc5/Desktop/JINGTING_V4/Instr_Reg_Risc_V.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.6d Compiler 2018.02 Feb 24 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity Instr_Reg_RISC_V
+-- Compiling architecture behavioral_arch of Instr_Reg_RISC_V
+
+} {} {}} C:/Users/fjtl2/Desktop/JINGTING_V6/SIGN_EXTEND.sv {1 {vlog -work work -sv -stats=none C:/Users/fjtl2/Desktop/JINGTING_V6/SIGN_EXTEND.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module SIGN_EXTEND
+
+Top level modules:
+	SIGN_EXTEND
+
+} {} {}} C:/Users/fjtl2/Desktop/JINGTING_V6/ramOnChip64.v {1 {vlog -work work -stats=none C:/Users/fjtl2/Desktop/JINGTING_V6/ramOnChip64.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module ramOnChip64
+
+Top level modules:
+	ramOnChip64
+
+} {} {}} C:/Users/lcc5/Desktop/JINGTING_V4/STATE_MACHINE.sv {1 {vlog -work work -sv -stats=none C:/Users/lcc5/Desktop/JINGTING_V4/STATE_MACHINE.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module STATE_MACHINE
+
+Top level modules:
+	STATE_MACHINE
+
+} {} {}} C:/Users/lcc5/Desktop/JINGTING_V4/MUX_2_64B.sv {1 {vlog -work work -sv -stats=none C:/Users/lcc5/Desktop/JINGTING_V4/MUX_2_64B.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module MUX_2_64B
+
+Top level modules:
+	MUX_2_64B
+
+} {} {}} C:/Users/fjtl2/Desktop/RISCV-master/JINGTING_V4/register.sv {1 {vlog -work work -sv -stats=none C:/Users/fjtl2/Desktop/RISCV-master/JINGTING_V4/register.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module register
+
+Top level modules:
+	register
+
+} {} {}} C:/Users/fjtl2/Desktop/JINGTING_V4/register.sv {1 {vlog -work work -sv -stats=none C:/Users/fjtl2/Desktop/JINGTING_V4/register.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module register
+
+Top level modules:
+	register
+
+} {} {}} C:/Users/fjtl2/Desktop/JINGTING_V6/Memoria64.sv {1 {vlog -work work -sv -stats=none C:/Users/fjtl2/Desktop/JINGTING_V6/Memoria64.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module Memoria64
+
+Top level modules:
+	Memoria64
+
+} {} {}} C:/Users/fjtl2/Desktop/JINGTING_V6/register.sv {1 {vlog -work work -sv -stats=none C:/Users/fjtl2/Desktop/JINGTING_V6/register.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module register
+
+Top level modules:
+	register
+
+} {} {}} C:/Users/lcc5/Downloads/JINGTING_V5/SIGN_EXTEND.sv {1 {vlog -work work -sv -stats=none C:/Users/lcc5/Downloads/JINGTING_V5/SIGN_EXTEND.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module SIGN_EXTEND
+
+Top level modules:
+	SIGN_EXTEND
+
+} {} {}}

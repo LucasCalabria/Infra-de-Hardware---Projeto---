@@ -1,0 +1,7 @@
+MAQUINA_DE_ESTADOS.sv
+Processador.sv
+register.sv
+Simulation.sv
+UP.sv
+Memoria64.sv
+Memoria32.sv

@@ -1,0 +1,61 @@
+module STATE_MACHINE (
+    input CLK, 
+    input RST, 
+    output logic rst_wire, 
+    output logic [2:0] op, 
+    output logic WR_PC,
+    output logic LOAD, 
+    output logic WR_MEM);
+    
+    enum bit[2:0] {rst, add, hold, load} state, next_state;
+
+    always_ff @(posedge CLK, posedge RST) begin
+        if(RST) state  <= rst;          //RECOMECA A MAQUINA DE ESTADOS QUANDO RST E ATIVADO
+        else state     <= next_state;
+    end
+    
+    always_comb begin
+        case(state)
+            rst:                        //ESTADO QUE ATIVA rst_wire
+            begin
+                LOAD          = 0;
+                WR_MEM        = 0;
+                rst_wire      = 1;
+                op            = 0;
+                WR_PC         = 0;
+                next_state    = hold;
+            end
+
+            add:                        //ESTADO QUE AUTORIZA A ATUALIZACAO DO PC
+            begin                       //chama a operacao de soma e autoriza que o resultado seja escrito em PC
+                LOAD          = 0;
+                WR_MEM        = 0;
+                rst_wire      = 0;
+                op            = 1;
+                WR_PC         = 1;
+                next_state    = load;
+            end
+            
+            hold:                       //ESTADO DE ESPERA
+            begin                       //espera até que o valor de pc seja carregado na ula
+                LOAD          = 0;
+                WR_MEM        = 0;
+                rst_wire      = 0;
+                op            = 0;
+                WR_PC         = 0;
+                next_state    = add;
+            end
+           
+           load:                        //ESTADO QUE CARREGA DADOS 
+           begin                        //carrega os dados das instrucoes no banco de dados
+                LOAD          = 1;
+                WR_MEM        = 0;
+                rst_wire      = 0;
+                op            = 0;
+                WR_PC         = 0;
+                next_state    = hold;
+            end
+
+        endcase
+    end
+endmodule

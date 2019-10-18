@@ -1,0 +1,921 @@
+# Compile of bancoReg.sv was successful.
+# Compile of Deslocamento.sv was successful.
+# Compile of ENILA.sv was successful.
+# Compile of Instr_Reg_Risc_V.vhd was successful.
+# Compile of LANA.sv was successful.
+# Compile of Memoria32.sv was successful.
+# Compile of Memoria64.sv was successful.
+# Compile of MUX_2_64B.sv was successful.
+# Compile of MUX_4_64B.sv was successful.
+# Compile of PU.sv was successful.
+# Compile of ramOnChip32.v was successful.
+# Compile of ramOnChip64.v was successful.
+# Compile of register.sv was successful.
+# Compile of SIGN_EXTEND.sv was successful.
+# Compile of simulation.sv was successful.
+# Compile of STATE_MACHINE.sv was successful.
+# Compile of ula64.vhd was successful.
+# 17 compiles, 0 failed with no errors.
+vsim -gui work.simulation -L altera_mf_ver
+# vsim -gui work.simulation -L altera_mf_ver 
+# Start time: 15:17:47 on Oct 09,2019
+# Loading sv_std.std
+# Loading work.simulation
+# Loading work.PU
+# Loading work.register
+# Loading work.STATE_MACHINE
+# Loading work.Memoria32
+# Loading work.ramOnChip32
+# Loading altera_mf_ver.altsyncram
+# Loading work.Memoria64
+# Loading work.ramOnChip64
+# Loading work.bancoReg
+# Loading work.MUX_2_64B
+# Loading work.MUX_4_64B
+# Loading work.SIGN_EXTEND
+# Loading work.Deslocamento
+# Loading work.LANA
+# Loading work.ENILA
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.instr_reg_risc_v(behavioral_arch)
+# Loading ieee.std_logic_arith(body)
+# Loading work.ula64(behavioral)
+# ** Warning: (vsim-8822) C:/Users/lcc5/Desktop/JINGTING_V11/PU.sv(86): [TFMPC] - Missing Verilog connection for formal VHDL port 'Negativo'.
+#    Time: 0 ps  Iteration: 0  Instance: /simulation/pu/ULA File: C:/Users/lcc5/Desktop/JINGTING_V11/ula64.vhd
+# ** Warning: (vsim-3015) C:/Users/lcc5/Desktop/JINGTING_V11/PU.sv(138): [PCDPC] - Port size (32) does not match connection size (64) for port 'Datain'. The port definition is at: C:/Users/lcc5/Desktop/JINGTING_V11/Memoria32.sv(30).
+#    Time: 0 ps  Iteration: 0  Instance: /simulation/pu/OP_MEM File: C:/Users/lcc5/Desktop/JINGTING_V11/Memoria32.sv
+add wave -position end sim:/simulation/pu/*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: fjtl2  Hostname: HWC18  ProcessID: 26568
+#           Attempting to use alternate WLF file "./wlftw0mn13".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftw0mn13
+add wave -position 1 sim:/simulation/pu/SM/*
+add wave -position end sim:/simulation/pu/*
+add wave -position 2  sim:/simulation/pu/SM/Estado
+run -all
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulation.pu.OP_MEM.memBlock0.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulation.pu.OP_MEM.memBlock1.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulation.pu.OP_MEM.memBlock2.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulation.pu.OP_MEM.memBlock3.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulation.pu.DATA_MEM.memBlock0.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulation.pu.DATA_MEM.memBlock1.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulation.pu.DATA_MEM.memBlock2.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulation.pu.DATA_MEM.memBlock3.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulation.pu.DATA_MEM.memBlock4.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulation.pu.DATA_MEM.memBlock5.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulation.pu.DATA_MEM.memBlock6.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulation.pu.DATA_MEM.memBlock7.altsyncram_component.m_default.altsyncram_inst
+restart
+# ** Warning: (vsim-8822) C:/Users/lcc5/Desktop/JINGTING_V11/PU.sv(86): [TFMPC] - Missing Verilog connection for formal VHDL port 'Negativo'.
+#    Time: 0 ps  Iteration: 0  Instance: /simulation/pu/ULA File: C:/Users/lcc5/Desktop/JINGTING_V11/ula64.vhd
+# ** Warning: (vsim-3015) C:/Users/lcc5/Desktop/JINGTING_V11/PU.sv(138): [PCDPC] - Port size (32) does not match connection size (64) for port 'Datain'. The port definition is at: C:/Users/lcc5/Desktop/JINGTING_V11/Memoria32.sv(30).
+#    Time: 0 ps  Iteration: 0  Instance: /simulation/pu/OP_MEM File: C:/Users/lcc5/Desktop/JINGTING_V11/Memoria32.sv
+run -all
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulation.pu.OP_MEM.memBlock0.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulation.pu.OP_MEM.memBlock1.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulation.pu.OP_MEM.memBlock2.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulation.pu.OP_MEM.memBlock3.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulation.pu.DATA_MEM.memBlock0.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulation.pu.DATA_MEM.memBlock1.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulation.pu.DATA_MEM.memBlock2.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulation.pu.DATA_MEM.memBlock3.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulation.pu.DATA_MEM.memBlock4.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulation.pu.DATA_MEM.memBlock5.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulation.pu.DATA_MEM.memBlock6.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulation.pu.DATA_MEM.memBlock7.altsyncram_component.m_default.altsyncram_inst
+# Compile of bancoReg.sv was successful.
+# Compile of Deslocamento.sv was successful.
+# Compile of ENILA.sv was successful.
+# Compile of Instr_Reg_Risc_V.vhd was successful.
+# Compile of LANA.sv was successful.
+# Compile of Memoria32.sv was successful.
+# Compile of Memoria64.sv was successful.
+# Compile of MUX_2_64B.sv was successful.
+# Compile of MUX_4_64B.sv was successful.
+# Compile of PU.sv was successful.
+# Compile of ramOnChip32.v was successful.
+# Compile of ramOnChip64.v was successful.
+# Compile of register.sv was successful.
+# Compile of SIGN_EXTEND.sv was successful.
+# Compile of simulation.sv was successful.
+# Compile of STATE_MACHINE.sv was successful.
+# Compile of ula64.vhd was successful.
+# 17 compiles, 0 failed with no errors.
+vsim -gui -L altera_mf_ver work.simulation
+# End time: 15:30:14 on Oct 09,2019, Elapsed time: 0:12:27
+# Errors: 0, Warnings: 0
+# vsim -gui -L altera_mf_ver work.simulation 
+# Start time: 15:30:15 on Oct 09,2019
+# Loading sv_std.std
+# Loading work.simulation
+# Loading work.PU
+# Loading work.register
+# Loading work.STATE_MACHINE
+# Loading work.Memoria32
+# Loading work.ramOnChip32
+# Loading altera_mf_ver.altsyncram
+# Loading work.Memoria64
+# Loading work.ramOnChip64
+# Loading work.bancoReg
+# Loading work.MUX_2_64B
+# Loading work.MUX_4_64B
+# Loading work.SIGN_EXTEND
+# Loading work.Deslocamento
+# Loading work.LANA
+# Loading work.ENILA
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.instr_reg_risc_v(behavioral_arch)
+# Loading ieee.std_logic_arith(body)
+# Loading work.ula64(behavioral)
+# ** Warning: (vsim-8822) C:/Users/lcc5/Desktop/JINGTING_V11/PU.sv(86): [TFMPC] - Missing Verilog connection for formal VHDL port 'Negativo'.
+#    Time: 0 ps  Iteration: 0  Instance: /simulation/pu/ULA File: C:/Users/lcc5/Desktop/JINGTING_V11/ula64.vhd
+# ** Warning: (vsim-3015) C:/Users/lcc5/Desktop/JINGTING_V11/PU.sv(138): [PCDPC] - Port size (32) does not match connection size (64) for port 'Datain'. The port definition is at: C:/Users/lcc5/Desktop/JINGTING_V11/Memoria32.sv(30).
+#    Time: 0 ps  Iteration: 0  Instance: /simulation/pu/OP_MEM File: C:/Users/lcc5/Desktop/JINGTING_V11/Memoria32.sv
+add wave -position end sim:/simulation/pu/*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: fjtl2  Hostname: HWC18  ProcessID: 26568
+#           Attempting to use alternate WLF file "./wlfteb5es9".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlfteb5es9
+add wave -position 2  sim:/simulation/pu/SM/Estado
+run -all
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulation.pu.OP_MEM.memBlock0.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulation.pu.OP_MEM.memBlock1.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulation.pu.OP_MEM.memBlock2.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulation.pu.OP_MEM.memBlock3.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulation.pu.DATA_MEM.memBlock0.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulation.pu.DATA_MEM.memBlock1.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulation.pu.DATA_MEM.memBlock2.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulation.pu.DATA_MEM.memBlock3.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulation.pu.DATA_MEM.memBlock4.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulation.pu.DATA_MEM.memBlock5.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulation.pu.DATA_MEM.memBlock6.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulation.pu.DATA_MEM.memBlock7.altsyncram_component.m_default.altsyncram_inst
+# Compile of bancoReg.sv was successful.
+# Compile of Deslocamento.sv was successful.
+# Compile of ENILA.sv was successful.
+# Compile of Instr_Reg_Risc_V.vhd was successful.
+# Compile of LANA.sv was successful.
+# Compile of Memoria32.sv was successful.
+# Compile of Memoria64.sv was successful.
+# Compile of MUX_2_64B.sv was successful.
+# Compile of MUX_4_64B.sv was successful.
+# Compile of PU.sv was successful.
+# Compile of ramOnChip32.v was successful.
+# Compile of ramOnChip64.v was successful.
+# Compile of register.sv was successful.
+# Compile of SIGN_EXTEND.sv was successful.
+# Compile of simulation.sv was successful.
+# Compile of STATE_MACHINE.sv was successful.
+# Compile of ula64.vhd was successful.
+# 17 compiles, 0 failed with no errors.
+vsim -gui -L altera_mf_ver work.simulation
+# End time: 15:39:22 on Oct 09,2019, Elapsed time: 0:09:07
+# Errors: 0, Warnings: 4
+# vsim -gui -L altera_mf_ver work.simulation 
+# Start time: 15:39:22 on Oct 09,2019
+# Loading sv_std.std
+# Loading work.simulation
+# Loading work.PU
+# Loading work.register
+# Loading work.STATE_MACHINE
+# Loading work.Memoria32
+# Loading work.ramOnChip32
+# Loading altera_mf_ver.altsyncram
+# Loading work.Memoria64
+# Loading work.ramOnChip64
+# Loading work.bancoReg
+# Loading work.MUX_2_64B
+# Loading work.MUX_4_64B
+# Loading work.SIGN_EXTEND
+# Loading work.Deslocamento
+# Loading work.LANA
+# Loading work.ENILA
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.instr_reg_risc_v(behavioral_arch)
+# Loading ieee.std_logic_arith(body)
+# Loading work.ula64(behavioral)
+# ** Warning: (vsim-8822) C:/Users/lcc5/Desktop/JINGTING_V11/PU.sv(86): [TFMPC] - Missing Verilog connection for formal VHDL port 'Negativo'.
+#    Time: 0 ps  Iteration: 0  Instance: /simulation/pu/ULA File: C:/Users/lcc5/Desktop/JINGTING_V11/ula64.vhd
+# ** Warning: (vsim-3015) C:/Users/lcc5/Desktop/JINGTING_V11/PU.sv(138): [PCDPC] - Port size (32) does not match connection size (64) for port 'Datain'. The port definition is at: C:/Users/lcc5/Desktop/JINGTING_V11/Memoria32.sv(30).
+#    Time: 0 ps  Iteration: 0  Instance: /simulation/pu/OP_MEM File: C:/Users/lcc5/Desktop/JINGTING_V11/Memoria32.sv
+add wave -position end sim:/simulation/pu/pc/*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: fjtl2  Hostname: HWC18  ProcessID: 26568
+#           Attempting to use alternate WLF file "./wlftnj5h2g".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftnj5h2g
+add wave -position end sim:/simulation/pu/*
+add wave -position 2  sim:/simulation/pu/SM/Estado
+run -all
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulation.pu.OP_MEM.memBlock0.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulation.pu.OP_MEM.memBlock1.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulation.pu.OP_MEM.memBlock2.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulation.pu.OP_MEM.memBlock3.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulation.pu.DATA_MEM.memBlock0.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulation.pu.DATA_MEM.memBlock1.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulation.pu.DATA_MEM.memBlock2.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulation.pu.DATA_MEM.memBlock3.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulation.pu.DATA_MEM.memBlock4.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulation.pu.DATA_MEM.memBlock5.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulation.pu.DATA_MEM.memBlock6.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulation.pu.DATA_MEM.memBlock7.altsyncram_component.m_default.altsyncram_inst
+# Compile of SIGN_EXTEND.sv was successful.
+# Compile of STATE_MACHINE.sv was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui -L altera_mf_ver work.simulation
+# End time: 16:07:35 on Oct 09,2019, Elapsed time: 0:28:13
+# Errors: 0, Warnings: 4
+# vsim -gui -L altera_mf_ver work.simulation 
+# Start time: 16:07:35 on Oct 09,2019
+# Loading sv_std.std
+# Loading work.simulation
+# Loading work.PU
+# Loading work.register
+# Loading work.STATE_MACHINE
+# Loading work.Memoria32
+# Loading work.ramOnChip32
+# Loading altera_mf_ver.altsyncram
+# Loading work.Memoria64
+# Loading work.ramOnChip64
+# Loading work.bancoReg
+# Loading work.MUX_2_64B
+# Loading work.MUX_4_64B
+# Loading work.SIGN_EXTEND
+# Loading work.Deslocamento
+# Loading work.LANA
+# Loading work.ENILA
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.instr_reg_risc_v(behavioral_arch)
+# Loading ieee.std_logic_arith(body)
+# Loading work.ula64(behavioral)
+# ** Warning: (vsim-8822) C:/Users/lcc5/Desktop/JINGTING_V11/PU.sv(86): [TFMPC] - Missing Verilog connection for formal VHDL port 'Negativo'.
+#    Time: 0 ps  Iteration: 0  Instance: /simulation/pu/ULA File: C:/Users/lcc5/Desktop/JINGTING_V11/ula64.vhd
+# ** Warning: (vsim-3015) C:/Users/lcc5/Desktop/JINGTING_V11/PU.sv(138): [PCDPC] - Port size (32) does not match connection size (64) for port 'Datain'. The port definition is at: C:/Users/lcc5/Desktop/JINGTING_V11/Memoria32.sv(30).
+#    Time: 0 ps  Iteration: 0  Instance: /simulation/pu/OP_MEM File: C:/Users/lcc5/Desktop/JINGTING_V11/Memoria32.sv
+add wave -position end sim:/simulation/pu/*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: fjtl2  Hostname: HWC18  ProcessID: 26568
+#           Attempting to use alternate WLF file "./wlftki5gbx".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftki5gbx
+add wave -position 2  sim:/simulation/pu/SM/Estado
+run -all
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulation.pu.OP_MEM.memBlock0.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulation.pu.OP_MEM.memBlock1.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulation.pu.OP_MEM.memBlock2.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulation.pu.OP_MEM.memBlock3.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulation.pu.DATA_MEM.memBlock0.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulation.pu.DATA_MEM.memBlock1.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulation.pu.DATA_MEM.memBlock2.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulation.pu.DATA_MEM.memBlock3.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulation.pu.DATA_MEM.memBlock4.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulation.pu.DATA_MEM.memBlock5.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulation.pu.DATA_MEM.memBlock6.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulation.pu.DATA_MEM.memBlock7.altsyncram_component.m_default.altsyncram_inst
+# Compile of STATE_MACHINE.sv was successful.
+vsim -gui -L altera_mf_ver work.simulation
+# End time: 16:18:18 on Oct 09,2019, Elapsed time: 0:10:43
+# Errors: 0, Warnings: 4
+# vsim -gui -L altera_mf_ver work.simulation 
+# Start time: 16:18:18 on Oct 09,2019
+# Loading sv_std.std
+# Loading work.simulation
+# Loading work.PU
+# Loading work.register
+# Loading work.STATE_MACHINE
+# Loading work.Memoria32
+# Loading work.ramOnChip32
+# Loading altera_mf_ver.altsyncram
+# Loading work.Memoria64
+# Loading work.ramOnChip64
+# Loading work.bancoReg
+# Loading work.MUX_2_64B
+# Loading work.MUX_4_64B
+# Loading work.SIGN_EXTEND
+# Loading work.Deslocamento
+# Loading work.LANA
+# Loading work.ENILA
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.instr_reg_risc_v(behavioral_arch)
+# Loading ieee.std_logic_arith(body)
+# Loading work.ula64(behavioral)
+# ** Warning: (vsim-8822) C:/Users/lcc5/Desktop/JINGTING_V11/PU.sv(86): [TFMPC] - Missing Verilog connection for formal VHDL port 'Negativo'.
+#    Time: 0 ps  Iteration: 0  Instance: /simulation/pu/ULA File: C:/Users/lcc5/Desktop/JINGTING_V11/ula64.vhd
+# ** Warning: (vsim-3015) C:/Users/lcc5/Desktop/JINGTING_V11/PU.sv(138): [PCDPC] - Port size (32) does not match connection size (64) for port 'Datain'. The port definition is at: C:/Users/lcc5/Desktop/JINGTING_V11/Memoria32.sv(30).
+#    Time: 0 ps  Iteration: 0  Instance: /simulation/pu/OP_MEM File: C:/Users/lcc5/Desktop/JINGTING_V11/Memoria32.sv
+add wave -position end sim:/simulation/pu/*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: fjtl2  Hostname: HWC18  ProcessID: 26568
+#           Attempting to use alternate WLF file "./wlft8fex23".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft8fex23
+# (vish-4014) No objects found matching 'sim:/simulation/pu/*'.
+add wave -position end sim:/simulation/pu/*
+add wave -position 2  sim:/simulation/pu/SM/Estado
+run -all
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulation.pu.OP_MEM.memBlock0.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulation.pu.OP_MEM.memBlock1.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulation.pu.OP_MEM.memBlock2.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulation.pu.OP_MEM.memBlock3.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulation.pu.DATA_MEM.memBlock0.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulation.pu.DATA_MEM.memBlock1.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulation.pu.DATA_MEM.memBlock2.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulation.pu.DATA_MEM.memBlock3.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulation.pu.DATA_MEM.memBlock4.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulation.pu.DATA_MEM.memBlock5.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulation.pu.DATA_MEM.memBlock6.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulation.pu.DATA_MEM.memBlock7.altsyncram_component.m_default.altsyncram_inst
+# Compile of STATE_MACHINE.sv was successful.
+vsim -gui -L altera_mf_ver work.simulation
+# End time: 16:24:07 on Oct 09,2019, Elapsed time: 0:05:49
+# Errors: 1, Warnings: 4
+# vsim -gui -L altera_mf_ver work.simulation 
+# Start time: 16:24:07 on Oct 09,2019
+# Loading sv_std.std
+# Loading work.simulation
+# Loading work.PU
+# Loading work.register
+# Loading work.STATE_MACHINE
+# Loading work.Memoria32
+# Loading work.ramOnChip32
+# Loading altera_mf_ver.altsyncram
+# Loading work.Memoria64
+# Loading work.ramOnChip64
+# Loading work.bancoReg
+# Loading work.MUX_2_64B
+# Loading work.MUX_4_64B
+# Loading work.SIGN_EXTEND
+# Loading work.Deslocamento
+# Loading work.LANA
+# Loading work.ENILA
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.instr_reg_risc_v(behavioral_arch)
+# Loading ieee.std_logic_arith(body)
+# Loading work.ula64(behavioral)
+# ** Warning: (vsim-8822) C:/Users/lcc5/Desktop/JINGTING_V11/PU.sv(86): [TFMPC] - Missing Verilog connection for formal VHDL port 'Negativo'.
+#    Time: 0 ps  Iteration: 0  Instance: /simulation/pu/ULA File: C:/Users/lcc5/Desktop/JINGTING_V11/ula64.vhd
+# ** Warning: (vsim-3015) C:/Users/lcc5/Desktop/JINGTING_V11/PU.sv(138): [PCDPC] - Port size (32) does not match connection size (64) for port 'Datain'. The port definition is at: C:/Users/lcc5/Desktop/JINGTING_V11/Memoria32.sv(30).
+#    Time: 0 ps  Iteration: 0  Instance: /simulation/pu/OP_MEM File: C:/Users/lcc5/Desktop/JINGTING_V11/Memoria32.sv
+add wave -position end sim:/simulation/pu/*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: fjtl2  Hostname: HWC18  ProcessID: 26568
+#           Attempting to use alternate WLF file "./wlftzrysiy".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftzrysiy
+add wave -position 2  sim:/simulation/pu/SM/Estado
+run -all
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulation.pu.OP_MEM.memBlock0.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulation.pu.OP_MEM.memBlock1.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulation.pu.OP_MEM.memBlock2.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulation.pu.OP_MEM.memBlock3.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulation.pu.DATA_MEM.memBlock0.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulation.pu.DATA_MEM.memBlock1.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulation.pu.DATA_MEM.memBlock2.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulation.pu.DATA_MEM.memBlock3.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulation.pu.DATA_MEM.memBlock4.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulation.pu.DATA_MEM.memBlock5.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulation.pu.DATA_MEM.memBlock6.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulation.pu.DATA_MEM.memBlock7.altsyncram_component.m_default.altsyncram_inst
+# Compile of bancoReg.sv was successful.
+# Compile of Deslocamento.sv was successful.
+# Compile of ENILA.sv was successful.
+# Compile of Instr_Reg_Risc_V.vhd was successful.
+# Compile of LANA.sv was successful.
+# Compile of Memoria32.sv was successful.
+# Compile of Memoria64.sv was successful.
+# Compile of MUX_2_64B.sv was successful.
+# Compile of MUX_4_64B.sv was successful.
+# Compile of PU.sv was successful.
+# Compile of ramOnChip32.v was successful.
+# Compile of ramOnChip64.v was successful.
+# Compile of register.sv was successful.
+# Compile of SIGN_EXTEND.sv was successful.
+# Compile of simulation.sv was successful.
+# Compile of STATE_MACHINE.sv was successful.
+# Compile of ula64.vhd was successful.
+# 17 compiles, 0 failed with no errors.
+vsim -gui -L altera_mf_ver work.simulation
+# End time: 16:52:44 on Oct 09,2019, Elapsed time: 0:28:37
+# Errors: 0, Warnings: 4
+# vsim -gui -L altera_mf_ver work.simulation 
+# Start time: 16:52:44 on Oct 09,2019
+# Loading sv_std.std
+# Loading work.simulation
+# Loading work.PU
+# Loading work.register
+# Loading work.STATE_MACHINE
+# Loading work.Memoria32
+# Loading work.ramOnChip32
+# Loading altera_mf_ver.altsyncram
+# Loading work.Memoria64
+# Loading work.ramOnChip64
+# Loading work.bancoReg
+# Loading work.MUX_2_64B
+# Loading work.MUX_4_64B
+# Loading work.SIGN_EXTEND
+# Loading work.Deslocamento
+# Loading work.LANA
+# Loading work.ENILA
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.instr_reg_risc_v(behavioral_arch)
+# Loading ieee.std_logic_arith(body)
+# Loading work.ula64(behavioral)
+# ** Warning: (vsim-8822) C:/Users/lcc5/Desktop/JINGTING_V11/PU.sv(86): [TFMPC] - Missing Verilog connection for formal VHDL port 'Negativo'.
+#    Time: 0 ps  Iteration: 0  Instance: /simulation/pu/ULA File: C:/Users/lcc5/Desktop/JINGTING_V11/ula64.vhd
+# ** Warning: (vsim-3015) C:/Users/lcc5/Desktop/JINGTING_V11/PU.sv(138): [PCDPC] - Port size (32) does not match connection size (64) for port 'Datain'. The port definition is at: C:/Users/lcc5/Desktop/JINGTING_V11/Memoria32.sv(30).
+#    Time: 0 ps  Iteration: 0  Instance: /simulation/pu/OP_MEM File: C:/Users/lcc5/Desktop/JINGTING_V11/Memoria32.sv
+add wave -position end sim:/simulation/pu/*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: fjtl2  Hostname: HWC18  ProcessID: 26568
+#           Attempting to use alternate WLF file "./wlftzmf256".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftzmf256
+add wave -position 2  sim:/simulation/pu/SM/Estado
+run -all
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulation.pu.OP_MEM.memBlock0.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulation.pu.OP_MEM.memBlock1.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulation.pu.OP_MEM.memBlock2.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulation.pu.OP_MEM.memBlock3.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulation.pu.DATA_MEM.memBlock0.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulation.pu.DATA_MEM.memBlock1.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulation.pu.DATA_MEM.memBlock2.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulation.pu.DATA_MEM.memBlock3.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulation.pu.DATA_MEM.memBlock4.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulation.pu.DATA_MEM.memBlock5.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulation.pu.DATA_MEM.memBlock6.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulation.pu.DATA_MEM.memBlock7.altsyncram_component.m_default.altsyncram_inst
+# Compile of bancoReg.sv was successful.
+# Compile of Deslocamento.sv was successful.
+# Compile of ENILA.sv was successful.
+# Compile of Instr_Reg_Risc_V.vhd was successful.
+# Compile of LANA.sv was successful.
+# Compile of Memoria32.sv was successful.
+# Compile of Memoria64.sv was successful.
+# Compile of MUX_2_64B.sv was successful.
+# Compile of MUX_4_64B.sv was successful.
+# Compile of PU.sv was successful.
+# Compile of ramOnChip32.v was successful.
+# Compile of ramOnChip64.v was successful.
+# Compile of register.sv was successful.
+vsim -gui -L altera_mf_ver work.simulation
+# End time: 17:02:32 on Oct 09,2019, Elapsed time: 0:09:48
+# Errors: 0, Warnings: 4
+# vsim -gui -L altera_mf_ver work.simulation 
+# Start time: 17:02:32 on Oct 09,2019
+# Loading sv_std.std
+# Loading work.simulation
+# Loading work.PU
+# Loading work.register
+# Loading work.STATE_MACHINE
+# Loading work.Memoria32
+# Loading work.ramOnChip32
+# Loading altera_mf_ver.altsyncram
+# Loading work.Memoria64
+# Loading work.ramOnChip64
+# Loading work.bancoReg
+# Loading work.MUX_2_64B
+# Loading work.MUX_4_64B
+# Loading work.SIGN_EXTEND
+# Loading work.Deslocamento
+# Loading work.LANA
+# Loading work.ENILA
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.instr_reg_risc_v(behavioral_arch)
+# Loading ieee.std_logic_arith(body)
+# Loading work.ula64(behavioral)
+# ** Warning: (vsim-8822) C:/Users/lcc5/Desktop/JINGTING_V11/PU.sv(86): [TFMPC] - Missing Verilog connection for formal VHDL port 'Negativo'.
+#    Time: 0 ps  Iteration: 0  Instance: /simulation/pu/ULA File: C:/Users/lcc5/Desktop/JINGTING_V11/ula64.vhd
+# ** Warning: (vsim-3015) C:/Users/lcc5/Desktop/JINGTING_V11/PU.sv(138): [PCDPC] - Port size (32) does not match connection size (64) for port 'Datain'. The port definition is at: C:/Users/lcc5/Desktop/JINGTING_V11/Memoria32.sv(30).
+#    Time: 0 ps  Iteration: 0  Instance: /simulation/pu/OP_MEM File: C:/Users/lcc5/Desktop/JINGTING_V11/Memoria32.sv
+# Compile of SIGN_EXTEND.sv was successful.
+# Compile of simulation.sv was successful.
+# Compile of STATE_MACHINE.sv was successful.
+# Compile of ula64.vhd was successful.
+# 17 compiles, 0 failed with no errors.
+add wave -position end sim:/simulation/pu/*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: fjtl2  Hostname: HWC18  ProcessID: 26568
+#           Attempting to use alternate WLF file "./wlftrd0jj1".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftrd0jj1
+add wave -position 2  sim:/simulation/pu/SM/Estado
+run -all
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulation.pu.OP_MEM.memBlock0.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulation.pu.OP_MEM.memBlock1.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulation.pu.OP_MEM.memBlock2.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulation.pu.OP_MEM.memBlock3.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulation.pu.DATA_MEM.memBlock0.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulation.pu.DATA_MEM.memBlock1.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulation.pu.DATA_MEM.memBlock2.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulation.pu.DATA_MEM.memBlock3.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulation.pu.DATA_MEM.memBlock4.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulation.pu.DATA_MEM.memBlock5.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulation.pu.DATA_MEM.memBlock6.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulation.pu.DATA_MEM.memBlock7.altsyncram_component.m_default.altsyncram_inst
+# Compile of bancoReg.sv was successful.
+# Compile of Deslocamento.sv was successful.
+# Compile of ENILA.sv was successful.
+# Compile of Instr_Reg_Risc_V.vhd was successful.
+# Compile of LANA.sv was successful.
+# Compile of Memoria32.sv was successful.
+# Compile of Memoria64.sv was successful.
+# Compile of MUX_2_64B.sv was successful.
+# Compile of MUX_4_64B.sv was successful.
+# Compile of PU.sv was successful.
+# Compile of ramOnChip32.v was successful.
+# Compile of ramOnChip64.v was successful.
+# Compile of register.sv was successful.
+# Compile of SIGN_EXTEND.sv was successful.
+# Compile of simulation.sv was successful.
+# Compile of STATE_MACHINE.sv was successful.
+# Compile of ula64.vhd was successful.
+# 17 compiles, 0 failed with no errors.
+vsim -gui -L altera_mf_ver work.simulation
+# End time: 17:18:28 on Oct 09,2019, Elapsed time: 0:15:56
+# Errors: 0, Warnings: 4
+# vsim -gui -L altera_mf_ver work.simulation 
+# Start time: 17:18:28 on Oct 09,2019
+# Loading sv_std.std
+# Loading work.simulation
+# Loading work.PU
+# Loading work.register
+# Loading work.STATE_MACHINE
+# Loading work.Memoria32
+# Loading work.ramOnChip32
+# Loading altera_mf_ver.altsyncram
+# Loading work.Memoria64
+# Loading work.ramOnChip64
+# Loading work.bancoReg
+# Loading work.MUX_2_64B
+# Loading work.MUX_4_64B
+# Loading work.SIGN_EXTEND
+# Loading work.Deslocamento
+# Loading work.LANA
+# Loading work.ENILA
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.instr_reg_risc_v(behavioral_arch)
+# Loading ieee.std_logic_arith(body)
+# Loading work.ula64(behavioral)
+# ** Warning: (vsim-8822) C:/Users/lcc5/Desktop/JINGTING_V11/PU.sv(86): [TFMPC] - Missing Verilog connection for formal VHDL port 'Negativo'.
+#    Time: 0 ps  Iteration: 0  Instance: /simulation/pu/ULA File: C:/Users/lcc5/Desktop/JINGTING_V11/ula64.vhd
+# ** Warning: (vsim-3015) C:/Users/lcc5/Desktop/JINGTING_V11/PU.sv(138): [PCDPC] - Port size (32) does not match connection size (64) for port 'Datain'. The port definition is at: C:/Users/lcc5/Desktop/JINGTING_V11/Memoria32.sv(30).
+#    Time: 0 ps  Iteration: 0  Instance: /simulation/pu/OP_MEM File: C:/Users/lcc5/Desktop/JINGTING_V11/Memoria32.sv
+add wave -position end sim:/simulation/pu/*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: fjtl2  Hostname: HWC18  ProcessID: 26568
+#           Attempting to use alternate WLF file "./wlftg248gr".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftg248gr
+add wave -position 2  sim:/simulation/pu/SM/Estado
+run -all
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulation.pu.OP_MEM.memBlock0.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulation.pu.OP_MEM.memBlock1.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulation.pu.OP_MEM.memBlock2.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulation.pu.OP_MEM.memBlock3.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulation.pu.DATA_MEM.memBlock0.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulation.pu.DATA_MEM.memBlock1.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulation.pu.DATA_MEM.memBlock2.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulation.pu.DATA_MEM.memBlock3.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulation.pu.DATA_MEM.memBlock4.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulation.pu.DATA_MEM.memBlock5.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulation.pu.DATA_MEM.memBlock6.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulation.pu.DATA_MEM.memBlock7.altsyncram_component.m_default.altsyncram_inst
+# Compile of bancoReg.sv was successful.
+# Compile of Deslocamento.sv was successful.
+# Compile of ENILA.sv was successful.
+# Compile of Instr_Reg_Risc_V.vhd was successful.
+# Compile of LANA.sv was successful.
+# Compile of Memoria32.sv was successful.
+# Compile of Memoria64.sv was successful.
+# Compile of MUX_2_64B.sv was successful.
+# Compile of MUX_4_64B.sv was successful.
+# Compile of PU.sv was successful.
+# Compile of ramOnChip32.v was successful.
+# Compile of ramOnChip64.v was successful.
+# Compile of register.sv was successful.
+# Compile of SIGN_EXTEND.sv was successful.
+# Compile of simulation.sv was successful.
+# Compile of STATE_MACHINE.sv was successful.
+# Compile of ula64.vhd was successful.
+# 17 compiles, 0 failed with no errors.
+vsim -gui -L altera_mf_ver work.simulation
+# End time: 17:43:25 on Oct 09,2019, Elapsed time: 0:24:57
+# Errors: 0, Warnings: 4
+# vsim -gui -L altera_mf_ver work.simulation 
+# Start time: 17:43:25 on Oct 09,2019
+# Loading sv_std.std
+# Loading work.simulation
+# Loading work.PU
+# Loading work.register
+# Loading work.STATE_MACHINE
+# Loading work.Memoria32
+# Loading work.ramOnChip32
+# Loading altera_mf_ver.altsyncram
+# Loading work.Memoria64
+# Loading work.ramOnChip64
+# Loading work.bancoReg
+# Loading work.MUX_2_64B
+# Loading work.MUX_4_64B
+# Loading work.SIGN_EXTEND
+# Loading work.Deslocamento
+# Loading work.LANA
+# Loading work.ENILA
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.instr_reg_risc_v(behavioral_arch)
+# Loading ieee.std_logic_arith(body)
+# Loading work.ula64(behavioral)
+# ** Warning: (vsim-8822) C:/Users/lcc5/Desktop/JINGTING_V11/PU.sv(86): [TFMPC] - Missing Verilog connection for formal VHDL port 'Negativo'.
+#    Time: 0 ps  Iteration: 0  Instance: /simulation/pu/ULA File: C:/Users/lcc5/Desktop/JINGTING_V11/ula64.vhd
+# ** Warning: (vsim-3015) C:/Users/lcc5/Desktop/JINGTING_V11/PU.sv(138): [PCDPC] - Port size (32) does not match connection size (64) for port 'Datain'. The port definition is at: C:/Users/lcc5/Desktop/JINGTING_V11/Memoria32.sv(30).
+#    Time: 0 ps  Iteration: 0  Instance: /simulation/pu/OP_MEM File: C:/Users/lcc5/Desktop/JINGTING_V11/Memoria32.sv
+add wave -position end sim:/simulation/pu/*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: fjtl2  Hostname: HWC18  ProcessID: 26568
+#           Attempting to use alternate WLF file "./wlft7s6j3d".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft7s6j3d
+add wave -position 2  sim:/simulation/pu/SM/Estado
+run -all
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulation.pu.OP_MEM.memBlock0.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulation.pu.OP_MEM.memBlock1.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulation.pu.OP_MEM.memBlock2.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulation.pu.OP_MEM.memBlock3.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulation.pu.DATA_MEM.memBlock0.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulation.pu.DATA_MEM.memBlock1.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulation.pu.DATA_MEM.memBlock2.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulation.pu.DATA_MEM.memBlock3.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulation.pu.DATA_MEM.memBlock4.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulation.pu.DATA_MEM.memBlock5.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulation.pu.DATA_MEM.memBlock6.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulation.pu.DATA_MEM.memBlock7.altsyncram_component.m_default.altsyncram_inst
+# Compile of bancoReg.sv was successful.
+# Compile of Deslocamento.sv was successful.
+# Compile of ENILA.sv was successful.
+# Compile of Instr_Reg_Risc_V.vhd was successful.
+# Compile of LANA.sv was successful.
+# Compile of Memoria32.sv was successful.
+# Compile of Memoria64.sv was successful.
+# Compile of MUX_2_64B.sv was successful.
+# Compile of MUX_4_64B.sv was successful.
+# Compile of PU.sv was successful.
+# Compile of ramOnChip32.v was successful.
+# Compile of ramOnChip64.v was successful.
+# Compile of register.sv was successful.
+# Compile of SIGN_EXTEND.sv was successful.
+# Compile of simulation.sv was successful.
+# Compile of STATE_MACHINE.sv was successful.
+# Compile of ula64.vhd was successful.
+# 17 compiles, 0 failed with no errors.
+vsim -gui -L altera_mf_ver work.simulation
+# End time: 18:04:37 on Oct 09,2019, Elapsed time: 0:21:12
+# Errors: 0, Warnings: 4
+# vsim -gui -L altera_mf_ver work.simulation 
+# Start time: 18:04:37 on Oct 09,2019
+# Loading sv_std.std
+# Loading work.simulation
+# Loading work.PU
+# Loading work.register
+# Loading work.STATE_MACHINE
+# Loading work.Memoria32
+# Loading work.ramOnChip32
+# Loading altera_mf_ver.altsyncram
+# Loading work.Memoria64
+# Loading work.ramOnChip64
+# Loading work.bancoReg
+# Loading work.MUX_2_64B
+# Loading work.MUX_4_64B
+# Loading work.SIGN_EXTEND
+# Loading work.Deslocamento
+# Loading work.LANA
+# Loading work.ENILA
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.instr_reg_risc_v(behavioral_arch)
+# Loading ieee.std_logic_arith(body)
+# Loading work.ula64(behavioral)
+# ** Warning: (vsim-8822) C:/Users/lcc5/Desktop/JINGTING_V11/PU.sv(86): [TFMPC] - Missing Verilog connection for formal VHDL port 'Negativo'.
+#    Time: 0 ps  Iteration: 0  Instance: /simulation/pu/ULA File: C:/Users/lcc5/Desktop/JINGTING_V11/ula64.vhd
+# ** Warning: (vsim-3015) C:/Users/lcc5/Desktop/JINGTING_V11/PU.sv(138): [PCDPC] - Port size (32) does not match connection size (64) for port 'Datain'. The port definition is at: C:/Users/lcc5/Desktop/JINGTING_V11/Memoria32.sv(30).
+#    Time: 0 ps  Iteration: 0  Instance: /simulation/pu/OP_MEM File: C:/Users/lcc5/Desktop/JINGTING_V11/Memoria32.sv
+# ** Warning: (vsim-3015) C:/Users/lcc5/Desktop/JINGTING_V11/PU.sv(177): [PCDPC] - Port size (64) does not match connection size (1) for port 'A'. The port definition is at: C:/Users/lcc5/Desktop/JINGTING_V11/MUX_2_64B.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /simulation/pu/MUX_ENILA File: C:/Users/lcc5/Desktop/JINGTING_V11/MUX_2_64B.sv
+add wave -position end sim:/simulation/pu/*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: fjtl2  Hostname: HWC18  ProcessID: 26568
+#           Attempting to use alternate WLF file "./wlftvarzss".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftvarzss
+add wave -position 2  sim:/simulation/pu/SM/Estado
+run -all
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulation.pu.OP_MEM.memBlock0.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulation.pu.OP_MEM.memBlock1.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulation.pu.OP_MEM.memBlock2.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulation.pu.OP_MEM.memBlock3.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulation.pu.DATA_MEM.memBlock0.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulation.pu.DATA_MEM.memBlock1.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulation.pu.DATA_MEM.memBlock2.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulation.pu.DATA_MEM.memBlock3.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulation.pu.DATA_MEM.memBlock4.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulation.pu.DATA_MEM.memBlock5.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulation.pu.DATA_MEM.memBlock6.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulation.pu.DATA_MEM.memBlock7.altsyncram_component.m_default.altsyncram_inst
